@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="food_cat">Food and Drinks</string>
+    <string name="elect_cat">Electronics</string>
+    <string name="office_cat">Office Supplies</string>
+    <string name="cloth_cat">Clothing</string>
+    <string-array name="category_selection">
+        <item>Food and Drinks</item>
+        <item>Electronics</item>
+        <item>Office Supplies</item>
+        <item>Clothing</item>
+        <item>Others</item>
+
+
+    </string-array>
+</resources>
