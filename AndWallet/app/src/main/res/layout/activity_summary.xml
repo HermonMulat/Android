@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp"
+    tools:context="com.example.hermon.andwallet.SummaryActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvIncomeTxt"
+        android:layout_centerVertical="true"
+        android:text="@string/summary"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvIncomeTxt"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvIncometotal"
+        android:text="@string/income"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tvIncometotal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/green"
+        android:text="@string/_0_00"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/tvExpenseTxt"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvExpensetotal"
+        android:layout_alignParentEnd="true"
+        android:text="@string/expenses"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tvExpensetotal"
+        android:padding="10dp"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"
+        android:text="@string/_0_00"
+        />
+
+    <ImageView
+        android:id="@+id/ivBracket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tvExpensetotal"
+        android:src="@drawable/curly"/>
+
+    <TextView
+        android:id="@+id/tvFinalBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_below="@+id/ivBracket"
+        android:textSize="25sp"
+        android:text="@string/_0_00"/>
+
+</RelativeLayout>

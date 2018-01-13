@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndWallet</string>
+    <string name="item">Item</string>
+    <string name="value">Value</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="save">Save</string>
+    <string name="balance">Balance</string>
+    <string name="_0_00">0.00$</string>
+    <string name="summary">Summary</string>
+    <string name="expenses">Expenses</string>string>
+</resources>
