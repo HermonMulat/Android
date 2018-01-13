@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTac</string>
+    <string name="startStr">O starts</string>
+    <string name="clearBoard">Clear</string>
+    <string name="o_time">O time</string>
+    <string name="x_time">x time</string>
+</resources>

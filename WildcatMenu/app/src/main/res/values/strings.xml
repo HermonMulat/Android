@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WildcatMenu</string>
+
+    <string name="oven">Oven</string>
+    <string name="grill">Grill</string>
+    <string name="deli">Deli</string>
+
+    <string-array name="foodNames">
+        <item>Colorado Turkey</item>
+        <item>French Fries</item>
+        <item>Wildcat Burger</item>
+        <item>BLT Sandwich</item>
+        <item>Onion Rings</item>
+        <item>Grilled Chicken</item>
+    </string-array>
+
+    <string-array name="foodCategory">
+        <item>@string/oven</item>
+        <item>@string/grill</item>
+        <item>@string/grill</item>
+        <item>@string/deli</item>
+        <item>@string/deli</item>
+        <item>@string/grill</item>
+    </string-array>
+
+    <string-array name="foodDescription">
+        <item>A succulent turkey raised in Colorado served on flat bread</item>
+        <item>Everyone knows what this is</item>
+        <item>If you don\'t know what this is, well you should</item>
+        <item>Classic. Bacon,lettuce and tomato sandwich</item>
+        <item>Onions made in a shape of a ring</item>
+        <item>A healthy grilled chicken breast</item>
+    </string-array>
+
+    <string-array name="foodPrice">
+        <item>6.95</item>
+        <item>1.20</item>
+        <item>7.15</item>
+        <item>6.45</item>
+        <item>1.20</item>
+        <item>6.95</item>>
+    </string-array>
+</resources>

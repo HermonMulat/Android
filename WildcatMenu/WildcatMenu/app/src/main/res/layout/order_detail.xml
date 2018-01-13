@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textIsSelectable="true"
+    android:orientation="vertical"
+    android:weightSum="13"
+    tools:context="hu.ait.wildcatmenu.staff.OrderDetailFragment">
+
+    <TextView
+        android:id="@+id/tvOrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:text="@string/customer_order"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textAppearance="?attr/titleTextStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <include layout="@layout/food_list"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnComplete"
+        android:text="@string/order_complete"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"/>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MasterDetail</string>
+    <string name="title_order_detail">Order Detail</string>
+</resources>

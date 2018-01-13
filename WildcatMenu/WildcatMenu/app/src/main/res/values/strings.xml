@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">WildcatMenu</string>
+
+    <string name="oven">Oven</string>
+    <string name="grill">Grill</string>
+    <string name="deli">Deli</string>
+
+    <string-array name="foodNames">
+        <item>Colorado Turkey</item>
+        <item>French Fries</item>
+        <item>Wildcat Burger</item>
+        <item>BLT Sandwich</item>
+        <item>Onion Rings</item>
+        <item>Grilled Chicken</item>
+    </string-array>
+
+    <string-array name="foodCategory">
+        <item>@string/oven</item>
+        <item>@string/grill</item>
+        <item>@string/grill</item>
+        <item>@string/deli</item>
+        <item>@string/deli</item>
+        <item>@string/grill</item>
+    </string-array>
+
+    <string-array name="foodDescription">
+        <item>A succulent turkey raised in Colorado served on flat bread</item>
+        <item>Everyone knows what this is</item>
+        <item>If you don\'t know what this is, well you should</item>
+        <item>Classic. Bacon,lettuce and tomato sandwich</item>
+        <item>Onions made in a shape of a ring</item>
+        <item>A healthy grilled chicken breast</item>
+    </string-array>
+
+    <string-array name="foodPrice">
+        <item>6.95</item>
+        <item>1.20</item>
+        <item>7.15</item>
+        <item>6.45</item>
+        <item>1.20</item>
+        <item>6.95</item>>
+    </string-array>
+    <string name="title_order_list">Orders</string>
+    <string name="title_order_detail">Order Detail</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="place_order">Place Order</string>
+    <string name="staff_example_com">staff@example.com</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="password2">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="continue2">Continue</string>
+    <string name="menu_item_name">Menu Item Name</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="customer_order">Customer Order</string>
+    <string name="order_complete">Order Complete</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="order_items">Order Items</string>
+    <string name="number_of_items">Number of Items</string>
+</resources>
+
