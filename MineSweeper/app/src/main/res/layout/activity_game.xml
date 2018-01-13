@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="10"
+    android:background="#000000"
+    tools:context="com.example.hermon.minesweeper.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp">
+
+        <TextView
+            android:id="@+id/mineCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20sp"
+            android:paddingTop="12.5dp"
+            android:paddingBottom="12.5dp"
+            android:textColor="#c00c0c"
+            android:textSize="45sp" />
+
+        <ImageView
+            android:id="@+id/iVReset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="12.5dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/normal" />
+
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize = "45sp"
+            android:paddingTop="12.5dp"
+            android:paddingBottom="12.5dp"
+            android:textColor="#c00c0c"
+            android:id="@+id/timer"/>
+
+
+    </RelativeLayout>
+
+    <View.FieldView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fieldView"/>
+
+</LinearLayout>
